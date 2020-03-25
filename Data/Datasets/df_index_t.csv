@@ -1,0 +1,497 @@
+,Team,GameWeek,Home,MatchID
+0,Arsenal,4,Home,46635
+1,Tottenham Hotspur,4,Away,46635
+2,Burnley,4,Home,46636
+3,Liverpool,4,Away,46636
+4,Chelsea,4,Home,46637
+5,Sheffield United,4,Away,46637
+6,Crystal Palace,4,Home,46638
+7,Aston Villa,4,Away,46638
+8,Everton,4,Home,46639
+9,Wolverhampton Wanderers,4,Away,46639
+10,Leicester City,4,Home,46640
+11,Bournemouth,4,Away,46640
+12,Manchester City,4,Home,46641
+13,Brighton and Hove Albion,4,Away,46641
+14,Newcastle United,4,Home,46642
+15,Watford,4,Away,46642
+16,Southampton,4,Home,46643
+17,Manchester United,4,Away,46643
+18,West Ham United,4,Home,46644
+19,Norwich City,4,Away,46644
+20,Aston Villa,5,Home,46645
+21,West Ham United,5,Away,46645
+22,Bournemouth,5,Home,46646
+23,Everton,5,Away,46646
+24,Brighton and Hove Albion,5,Home,46647
+25,Burnley,5,Away,46647
+26,Liverpool,5,Home,46648
+27,Newcastle United,5,Away,46648
+28,Manchester United,5,Home,46649
+29,Leicester City,5,Away,46649
+30,Norwich City,5,Home,46650
+31,Manchester City,5,Away,46650
+32,Sheffield United,5,Home,46651
+33,Southampton,5,Away,46651
+34,Tottenham Hotspur,5,Home,46652
+35,Crystal Palace,5,Away,46652
+36,Watford,5,Home,46653
+37,Arsenal,5,Away,46653
+38,Wolverhampton Wanderers,5,Home,46654
+39,Chelsea,5,Away,46654
+40,Arsenal,6,Home,46655
+41,Aston Villa,6,Away,46655
+42,Burnley,6,Home,46656
+43,Norwich City,6,Away,46656
+44,Chelsea,6,Home,46657
+45,Liverpool,6,Away,46657
+46,Crystal Palace,6,Home,46658
+47,Wolverhampton Wanderers,6,Away,46658
+48,Everton,6,Home,46659
+49,Sheffield United,6,Away,46659
+50,Leicester City,6,Home,46660
+51,Tottenham Hotspur,6,Away,46660
+52,Manchester City,6,Home,46661
+53,Watford,6,Away,46661
+54,Newcastle United,6,Home,46662
+55,Brighton and Hove Albion,6,Away,46662
+56,Southampton,6,Home,46663
+57,Bournemouth,6,Away,46663
+58,West Ham United,6,Home,46664
+59,Manchester United,6,Away,46664
+60,Aston Villa,7,Home,46665
+61,Burnley,7,Away,46665
+62,Bournemouth,7,Home,46666
+63,West Ham United,7,Away,46666
+64,Chelsea,7,Home,46667
+65,Brighton and Hove Albion,7,Away,46667
+66,Crystal Palace,7,Home,46668
+67,Norwich City,7,Away,46668
+68,Everton,7,Home,46669
+69,Manchester City,7,Away,46669
+70,Leicester City,7,Home,46670
+71,Newcastle United,7,Away,46670
+72,Manchester United,7,Home,46671
+73,Arsenal,7,Away,46671
+74,Sheffield United,7,Home,46672
+75,Liverpool,7,Away,46672
+76,Tottenham Hotspur,7,Home,46673
+77,Southampton,7,Away,46673
+78,Wolverhampton Wanderers,7,Home,46674
+79,Watford,7,Away,46674
+80,Arsenal,8,Home,46675
+81,Bournemouth,8,Away,46675
+82,Brighton and Hove Albion,8,Home,46676
+83,Tottenham Hotspur,8,Away,46676
+84,Burnley,8,Home,46677
+85,Everton,8,Away,46677
+86,Liverpool,8,Home,46678
+87,Leicester City,8,Away,46678
+88,Manchester City,8,Home,46679
+89,Wolverhampton Wanderers,8,Away,46679
+90,Newcastle United,8,Home,46680
+91,Manchester United,8,Away,46680
+92,Norwich City,8,Home,46681
+93,Aston Villa,8,Away,46681
+94,Southampton,8,Home,46682
+95,Chelsea,8,Away,46682
+96,Watford,8,Home,46683
+97,Sheffield United,8,Away,46683
+98,West Ham United,8,Home,46684
+99,Crystal Palace,8,Away,46684
+100,Aston Villa,9,Home,46685
+101,Brighton and Hove Albion,9,Away,46685
+102,Bournemouth,9,Home,46686
+103,Norwich City,9,Away,46686
+104,Chelsea,9,Home,46687
+105,Newcastle United,9,Away,46687
+106,Crystal Palace,9,Home,46688
+107,Manchester City,9,Away,46688
+108,Everton,9,Home,46689
+109,West Ham United,9,Away,46689
+110,Leicester City,9,Home,46690
+111,Burnley,9,Away,46690
+112,Manchester United,9,Home,46691
+113,Liverpool,9,Away,46691
+114,Sheffield United,9,Home,46692
+115,Arsenal,9,Away,46692
+116,Tottenham Hotspur,9,Home,46693
+117,Watford,9,Away,46693
+118,Wolverhampton Wanderers,9,Home,46694
+119,Southampton,9,Away,46694
+120,Arsenal,10,Home,46695
+121,Crystal Palace,10,Away,46695
+122,Brighton and Hove Albion,10,Home,46696
+123,Everton,10,Away,46696
+124,Burnley,10,Home,46697
+125,Chelsea,10,Away,46697
+126,Liverpool,10,Home,46698
+127,Tottenham Hotspur,10,Away,46698
+128,Manchester City,10,Home,46699
+129,Aston Villa,10,Away,46699
+130,Newcastle United,10,Home,46700
+131,Wolverhampton Wanderers,10,Away,46700
+132,Norwich City,10,Home,46701
+133,Manchester United,10,Away,46701
+134,Southampton,10,Home,46702
+135,Leicester City,10,Away,46702
+136,Watford,10,Home,46703
+137,Bournemouth,10,Away,46703
+138,West Ham United,10,Home,46704
+139,Sheffield United,10,Away,46704
+140,Arsenal,11,Home,46705
+141,Wolverhampton Wanderers,11,Away,46705
+142,Aston Villa,11,Home,46706
+143,Liverpool,11,Away,46706
+144,Bournemouth,11,Home,46707
+145,Manchester United,11,Away,46707
+146,Brighton and Hove Albion,11,Home,46708
+147,Norwich City,11,Away,46708
+148,Crystal Palace,11,Home,46709
+149,Leicester City,11,Away,46709
+150,Everton,11,Home,46710
+151,Tottenham Hotspur,11,Away,46710
+152,Manchester City,11,Home,46711
+153,Southampton,11,Away,46711
+154,Sheffield United,11,Home,46712
+155,Burnley,11,Away,46712
+156,Watford,11,Home,46713
+157,Chelsea,11,Away,46713
+158,West Ham United,11,Home,46714
+159,Newcastle United,11,Away,46714
+160,Burnley,12,Home,46715
+161,West Ham United,12,Away,46715
+162,Chelsea,12,Home,46716
+163,Crystal Palace,12,Away,46716
+164,Leicester City,12,Home,46717
+165,Arsenal,12,Away,46717
+166,Liverpool,12,Home,46718
+167,Manchester City,12,Away,46718
+168,Manchester United,12,Home,46719
+169,Brighton and Hove Albion,12,Away,46719
+170,Newcastle United,12,Home,46720
+171,Bournemouth,12,Away,46720
+172,Norwich City,12,Home,46721
+173,Watford,12,Away,46721
+174,Southampton,12,Home,46722
+175,Everton,12,Away,46722
+176,Tottenham Hotspur,12,Home,46723
+177,Sheffield United,12,Away,46723
+178,Wolverhampton Wanderers,12,Home,46724
+179,Aston Villa,12,Away,46724
+180,Arsenal,13,Home,46725
+181,Southampton,13,Away,46725
+182,Aston Villa,13,Home,46726
+183,Newcastle United,13,Away,46726
+184,Bournemouth,13,Home,46727
+185,Wolverhampton Wanderers,13,Away,46727
+186,Brighton and Hove Albion,13,Home,46728
+187,Leicester City,13,Away,46728
+188,Crystal Palace,13,Home,46729
+189,Liverpool,13,Away,46729
+190,Everton,13,Home,46730
+191,Norwich City,13,Away,46730
+192,Manchester City,13,Home,46731
+193,Chelsea,13,Away,46731
+194,Sheffield United,13,Home,46732
+195,Manchester United,13,Away,46732
+196,Watford,13,Home,46733
+197,Burnley,13,Away,46733
+198,West Ham United,13,Home,46734
+199,Tottenham Hotspur,13,Away,46734
+200,Burnley,14,Home,46735
+201,Crystal Palace,14,Away,46735
+202,Chelsea,14,Home,46736
+203,West Ham United,14,Away,46736
+204,Leicester City,14,Home,46737
+205,Everton,14,Away,46737
+206,Liverpool,14,Home,46738
+207,Brighton and Hove Albion,14,Away,46738
+208,Manchester United,14,Home,46739
+209,Aston Villa,14,Away,46739
+210,Newcastle United,14,Home,46740
+211,Manchester City,14,Away,46740
+212,Norwich City,14,Home,46741
+213,Arsenal,14,Away,46741
+214,Southampton,14,Home,46742
+215,Watford,14,Away,46742
+216,Tottenham Hotspur,14,Home,46743
+217,Bournemouth,14,Away,46743
+218,Wolverhampton Wanderers,14,Home,46744
+219,Sheffield United,14,Away,46744
+220,Arsenal,15,Home,46745
+221,Brighton and Hove Albion,15,Away,46745
+222,Burnley,15,Home,46746
+223,Manchester City,15,Away,46746
+224,Leicester City,15,Home,46747
+225,Watford,15,Away,46747
+226,Manchester United,15,Home,46748
+227,Tottenham Hotspur,15,Away,46748
+228,Sheffield United,15,Home,46749
+229,Newcastle United,15,Away,46749
+230,Wolverhampton Wanderers,15,Home,46750
+231,West Ham United,15,Away,46750
+232,Chelsea,15,Home,46751
+233,Aston Villa,15,Away,46751
+234,Crystal Palace,15,Home,46752
+235,Bournemouth,15,Away,46752
+236,Liverpool,15,Home,46753
+237,Everton,15,Away,46753
+238,Southampton,15,Home,46754
+239,Norwich City,15,Away,46754
+240,Aston Villa,16,Home,46755
+241,Leicester City,16,Away,46755
+242,Bournemouth,16,Home,46756
+243,Liverpool,16,Away,46756
+244,Brighton and Hove Albion,16,Home,46757
+245,Wolverhampton Wanderers,16,Away,46757
+246,Everton,16,Home,46758
+247,Chelsea,16,Away,46758
+248,Manchester City,16,Home,46759
+249,Manchester United,16,Away,46759
+250,Newcastle United,16,Home,46760
+251,Southampton,16,Away,46760
+252,Norwich City,16,Home,46761
+253,Sheffield United,16,Away,46761
+254,Tottenham Hotspur,16,Home,46762
+255,Burnley,16,Away,46762
+256,Watford,16,Home,46763
+257,Crystal Palace,16,Away,46763
+258,West Ham United,16,Home,46764
+259,Arsenal,16,Away,46764
+260,Arsenal,17,Home,46765
+261,Manchester City,17,Away,46765
+262,Burnley,17,Home,46766
+263,Newcastle United,17,Away,46766
+264,Chelsea,17,Home,46767
+265,Bournemouth,17,Away,46767
+266,Crystal Palace,17,Home,46768
+267,Brighton and Hove Albion,17,Away,46768
+268,Leicester City,17,Home,46769
+269,Norwich City,17,Away,46769
+270,Liverpool,17,Home,46770
+271,Watford,17,Away,46770
+272,Manchester United,17,Home,46771
+273,Everton,17,Away,46771
+274,Sheffield United,17,Home,46772
+275,Aston Villa,17,Away,46772
+276,Southampton,17,Home,46773
+277,West Ham United,17,Away,46773
+278,Wolverhampton Wanderers,17,Home,46774
+279,Tottenham Hotspur,17,Away,46774
+280,Aston Villa,18,Home,46775
+281,Southampton,18,Away,46775
+282,Bournemouth,18,Home,46776
+283,Burnley,18,Away,46776
+284,Brighton and Hove Albion,18,Home,46777
+285,Sheffield United,18,Away,46777
+286,Everton,18,Home,46778
+287,Arsenal,18,Away,46778
+288,Manchester City,18,Home,46779
+289,Leicester City,18,Away,46779
+290,Newcastle United,18,Home,46780
+291,Crystal Palace,18,Away,46780
+292,Norwich City,18,Home,46781
+293,Wolverhampton Wanderers,18,Away,46781
+294,Tottenham Hotspur,18,Home,46782
+295,Chelsea,18,Away,46782
+296,Watford,18,Home,46783
+297,Manchester United,18,Away,46783
+298,West Ham United,24,Home,46784
+299,Liverpool,24,Away,46784
+300,Aston Villa,19,Home,46785
+301,Norwich City,19,Away,46785
+302,Bournemouth,19,Home,46786
+303,Arsenal,19,Away,46786
+304,Chelsea,19,Home,46787
+305,Southampton,19,Away,46787
+306,Crystal Palace,19,Home,46788
+307,West Ham United,19,Away,46788
+308,Everton,19,Home,46789
+309,Burnley,19,Away,46789
+310,Leicester City,19,Home,46790
+311,Liverpool,19,Away,46790
+312,Manchester United,19,Home,46791
+313,Newcastle United,19,Away,46791
+314,Sheffield United,19,Home,46792
+315,Watford,19,Away,46792
+316,Tottenham Hotspur,19,Home,46793
+317,Brighton and Hove Albion,19,Away,46793
+318,Wolverhampton Wanderers,19,Home,46794
+319,Manchester City,19,Away,46794
+320,Arsenal,20,Home,46795
+321,Chelsea,20,Away,46795
+322,Brighton and Hove Albion,20,Home,46796
+323,Bournemouth,20,Away,46796
+324,Burnley,20,Home,46797
+325,Manchester United,20,Away,46797
+326,Liverpool,20,Home,46798
+327,Wolverhampton Wanderers,20,Away,46798
+328,Manchester City,20,Home,46799
+329,Sheffield United,20,Away,46799
+330,Newcastle United,20,Home,46800
+331,Everton,20,Away,46800
+332,Norwich City,20,Home,46801
+333,Tottenham Hotspur,20,Away,46801
+334,Southampton,20,Home,46802
+335,Crystal Palace,20,Away,46802
+336,Watford,20,Home,46803
+337,Aston Villa,20,Away,46803
+338,West Ham United,20,Home,46804
+339,Leicester City,20,Away,46804
+340,Arsenal,21,Home,46805
+341,Manchester United,21,Away,46805
+342,Brighton and Hove Albion,21,Home,46806
+343,Chelsea,21,Away,46806
+344,Burnley,21,Home,46807
+345,Aston Villa,21,Away,46807
+346,Liverpool,21,Home,46808
+347,Sheffield United,21,Away,46808
+348,Manchester City,21,Home,46809
+349,Everton,21,Away,46809
+350,Newcastle United,21,Home,46810
+351,Leicester City,21,Away,46810
+352,Norwich City,21,Home,46811
+353,Crystal Palace,21,Away,46811
+354,Southampton,21,Home,46812
+355,Tottenham Hotspur,21,Away,46812
+356,Watford,21,Home,46813
+357,Wolverhampton Wanderers,21,Away,46813
+358,West Ham United,21,Home,46814
+359,Bournemouth,21,Away,46814
+360,Aston Villa,22,Home,46815
+361,Manchester City,22,Away,46815
+362,Bournemouth,22,Home,46816
+363,Watford,22,Away,46816
+364,Chelsea,22,Home,46817
+365,Burnley,22,Away,46817
+366,Crystal Palace,22,Home,46818
+367,Arsenal,22,Away,46818
+368,Everton,22,Home,46819
+369,Brighton and Hove Albion,22,Away,46819
+370,Leicester City,22,Home,46820
+371,Southampton,22,Away,46820
+372,Manchester United,22,Home,46821
+373,Norwich City,22,Away,46821
+374,Sheffield United,22,Home,46822
+375,West Ham United,22,Away,46822
+376,Tottenham Hotspur,22,Home,46823
+377,Liverpool,22,Away,46823
+378,Wolverhampton Wanderers,22,Home,46824
+379,Newcastle United,22,Away,46824
+380,Arsenal,23,Home,46825
+381,Sheffield United,23,Away,46825
+382,Brighton and Hove Albion,23,Home,46826
+383,Aston Villa,23,Away,46826
+384,Burnley,23,Home,46827
+385,Leicester City,23,Away,46827
+386,Liverpool,23,Home,46828
+387,Manchester United,23,Away,46828
+388,Manchester City,23,Home,46829
+389,Crystal Palace,23,Away,46829
+390,Newcastle United,23,Home,46830
+391,Chelsea,23,Away,46830
+392,Norwich City,23,Home,46831
+393,Bournemouth,23,Away,46831
+394,Southampton,23,Home,46832
+395,Wolverhampton Wanderers,23,Away,46832
+396,Watford,23,Home,46833
+397,Tottenham Hotspur,23,Away,46833
+398,West Ham United,23,Home,46834
+399,Everton,23,Away,46834
+400,Aston Villa,24,Home,46835
+401,Watford,24,Away,46835
+402,Bournemouth,24,Home,46836
+403,Brighton and Hove Albion,24,Away,46836
+404,Everton,24,Home,46837
+405,Newcastle United,24,Away,46837
+406,Leicester City,24,Home,46838
+407,West Ham United,24,Away,46838
+408,Manchester United,24,Home,46839
+409,Burnley,24,Away,46839
+410,Sheffield United,24,Home,46840
+411,Manchester City,24,Away,46840
+412,Wolverhampton Wanderers,24,Home,46841
+413,Liverpool,24,Away,46841
+414,Chelsea,24,Home,46842
+415,Arsenal,24,Away,46842
+416,Crystal Palace,24,Home,46843
+417,Southampton,24,Away,46843
+418,Tottenham Hotspur,24,Home,46844
+419,Norwich City,24,Away,46844
+420,Bournemouth,25,Home,46845
+421,Aston Villa,25,Away,46845
+422,Burnley,25,Home,46846
+423,Arsenal,25,Away,46846
+424,Crystal Palace,25,Home,46847
+425,Sheffield United,25,Away,46847
+426,Leicester City,25,Home,46848
+427,Chelsea,25,Away,46848
+428,Liverpool,25,Home,46849
+429,Southampton,25,Away,46849
+430,Manchester United,25,Home,46850
+431,Wolverhampton Wanderers,25,Away,46850
+432,Newcastle United,25,Home,46851
+433,Norwich City,25,Away,46851
+434,Tottenham Hotspur,25,Home,46852
+435,Manchester City,25,Away,46852
+436,Watford,25,Home,46853
+437,Everton,25,Away,46853
+438,West Ham United,25,Home,46854
+439,Brighton and Hove Albion,25,Away,46854
+440,Arsenal,26,Home,46855
+441,Newcastle United,26,Away,46855
+442,Aston Villa,26,Home,46856
+443,Tottenham Hotspur,26,Away,46856
+444,Brighton and Hove Albion,26,Home,46857
+445,Watford,26,Away,46857
+446,Chelsea,26,Home,46858
+447,Manchester United,26,Away,46858
+448,Everton,26,Home,46859
+449,Crystal Palace,26,Away,46859
+450,Manchester City,26,Home,46860
+451,West Ham United,26,Away,46860
+452,Norwich City,26,Home,46861
+453,Liverpool,26,Away,46861
+454,Sheffield United,26,Home,46862
+455,Bournemouth,26,Away,46862
+456,Southampton,26,Home,46863
+457,Burnley,26,Away,46863
+458,Wolverhampton Wanderers,26,Home,46864
+459,Leicester City,26,Away,46864
+460,Arsenal,27,Home,46865
+461,Everton,27,Away,46865
+462,Burnley,27,Home,46866
+463,Bournemouth,27,Away,46866
+464,Chelsea,27,Home,46867
+465,Tottenham Hotspur,27,Away,46867
+466,Crystal Palace,27,Home,46868
+467,Newcastle United,27,Away,46868
+468,Leicester City,27,Home,46869
+469,Manchester City,27,Away,46869
+470,Liverpool,27,Home,46870
+471,West Ham United,27,Away,46870
+472,Manchester United,27,Home,46871
+473,Watford,27,Away,46871
+474,Sheffield United,27,Home,46872
+475,Brighton and Hove Albion,27,Away,46872
+476,Southampton,27,Home,46873
+477,Aston Villa,27,Away,46873
+478,Wolverhampton Wanderers,27,Home,46874
+479,Norwich City,27,Away,46874
+480,Bournemouth,28,Home,46876
+481,Chelsea,28,Away,46876
+482,Brighton and Hove Albion,28,Home,46877
+483,Crystal Palace,28,Away,46877
+484,Everton,28,Home,46878
+485,Manchester United,28,Away,46878
+486,Newcastle United,28,Home,46880
+487,Burnley,28,Away,46880
+488,Norwich City,28,Home,46881
+489,Leicester City,28,Away,46881
+490,Tottenham Hotspur,28,Home,46882
+491,Wolverhampton Wanderers,28,Away,46882
+492,Watford,28,Home,46883
+493,Liverpool,28,Away,46883
+494,West Ham United,28,Home,46884
+495,Southampton,28,Away,46884
