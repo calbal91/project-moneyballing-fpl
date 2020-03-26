@@ -9,7 +9,7 @@ Fantasy Premier League (FPL) is an online game that follows the real-life Premie
 
 Famous players who scored highly in previous seasons are more expensive. Therefore, good FPL managers are those able to spot cheap, unknown players with the potential to score big.
 
-![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png | width=300)
+![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png){:height="50%" width="50%"}
 
 Managers can swap one player from their team every week to bring in a replacement (who may be in better form, or have an easier run of fixtures).
 
