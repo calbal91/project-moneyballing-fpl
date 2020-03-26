@@ -9,7 +9,7 @@ Fantasy Premier League (FPL) is an online game that follows the real-life Premie
 
 Famous players who scored highly in previous seasons are more expensive. Therefore, good FPL managers are those able to spot cheap, unknown players with the potential to score big.
 
-![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png)
+![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png | width=300)
 
 Managers can swap one player from their team every week to bring in a replacement (who may be in better form, or have an easier run of fixtures).
 
@@ -19,7 +19,7 @@ The most sought-after players in FPL are known as 'differentials'. Differential 
 
 Data confirms that there are such ‘differential’ players in the game (though they are in the minority, often making them hard to spot).
 
-![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png)
+![Differentials](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Differentials.png)
 
 Of course, every football match generates a lot of data – both in terms of player performance and FPL manager decisions. The aim of this project, therefore, is to create a suite of tools that help managers make better picks throughout the season (namely picking better differentials), based on the data.
 
@@ -92,7 +92,7 @@ We can use our shots data to identify 'important' players.
 
 For example, we can see what share of their teams' shots (and goals) each player has been involved in.
 
-![PointsByAction](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/PointsByAction.png)
+![ShareOfShots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/ShareOfShots.png)
 
 And we can look at the pairs of players who have assisted each other's shots the most:
 
@@ -131,6 +131,8 @@ We can then use this to see who the most 'important' players in the league are..
 A more detailed exploration of this analysis can be found here: https://towardsdatascience.com/who-is-the-premier-leagues-most-important-player-4f184f7b39e4
 
 ### Expected Goals
+
+Working 
 
 ![Talismen](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Talismen.png)
 
