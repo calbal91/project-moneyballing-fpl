@@ -1,5 +1,11 @@
 # Moneyballing Fantasy Premier League
 
+## Abstract
+
+The aim of this project was to create tools to help managers playing 'Fantasy Premier League', an online game that tracks the real-world Premier League football season in England.
+
+By collecting extensive amounts of data pertaining to both the matches themselves as well as FPL manager decisions, I was able to create a series of interactive dashboards, which would provide significant guidance for FPL players. However, the project's aim of creating a model to explicitly predict players that would score in future matches did not work out - despite the use of different algorithms, models failed to generalise effectively to testing data.
+
 
 ## Table of contents
 
