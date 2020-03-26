@@ -47,7 +47,7 @@ The data for this project comes from two places:
 
 2. **Scraping the Premier League website.** We are able to scrape commentary (as well as some other aggregated data) straight from the Premier League website. This gives us a detailed view of every event that happened in every game. A full explanation of how this data was scraped can be found here: https://towardsdatascience.com/improve-your-data-wrangling-with-object-oriented-programming-914d3ebc83a9
 
-*An example of FPL commentary**
+**An example of FPL commentary**
 ![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLCommentary.png)
 
 All of the data was uploaded into an SQLite database.
@@ -143,6 +143,7 @@ If our project's aim is to somehow predict who is going to score goals, then it'
 ![ShotsOnTarget](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/ShotAccuracy.png)
 
 **Share of shots converted to goals by shot position**
+
 ![GoalConversion](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/GoalConversion.png)
 
 We can see that shots are not created equally. Generally, proximity to the goal is a good indicator as to whether a shot is going to be on target. However, we can see that goal conversion rates are wildly different - nearly 4 in 10 shots are goals if taken from very close proximity, compared to less than 3 in 100 if taken from a difficult angle.
@@ -181,6 +182,32 @@ XG and XGI also seem to increase in a linear fashion - i.e. the mean XG of playe
 
 ## Dashboard Building
 
-Having been unable to build strong predictive models, 
+Though we have been unable to build strong predictive models, we can still 'productise' the data we've gathered in a way that will help us with Fantasy Premier League.
+
+In particular, we can use Tableau to create a series of interactive dashboards, allowing FPL managers to explore the various KPIs we've scraped and created. These have a number of different applications and use cases, which should help inform the strategy of FPL managers.
+
+**Player Dashboard**
+
+* A fully customisable dashboard showing KPIs of the user's choosing for each player
+* Can filter performance based on player price, gameweek, and whether user wants to consider performance in home/away matches
+* User selects players in scatter, which acts as a filter for the time series and rankings in the lower charts
+
+![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+
+**Team Dashboard**
+
+* A dashboard showing team-level performance across KPIs
+* All views and KPIs are fully customisable and can be filtered as required by the user
+* Gives a view of how teams have played against each other individual teams
+
+![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+
+**Season Summaries**
+
+* Shows how players have progressed through the season so far (by position), based on KPIs of the user's choice 
+* Can be used to identify trends before they become obvious to every manager
+
+![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+
 
 These dashboards can be found at https://www.cb91.io/projects/fpl
