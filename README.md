@@ -192,7 +192,7 @@ In particular, we can use Tableau to create a series of interactive dashboards, 
 * Can filter performance based on player price, gameweek, and whether user wants to consider performance in home/away matches
 * User selects players in scatter, which acts as a filter for the time series and rankings in the lower charts
 
-![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+![PlayerDashboard](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/PlayerDashboard.gif)
 
 **Team Dashboard**
 
@@ -200,14 +200,14 @@ In particular, we can use Tableau to create a series of interactive dashboards, 
 * All views and KPIs are fully customisable and can be filtered as required by the user
 * Gives a view of how teams have played against each other individual teams
 
-![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+![TeamDashboard](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/TeamDashboard.gif)
 
 **Season Summaries**
 
 * Shows how players have progressed through the season so far (by position), based on KPIs of the user's choice 
 * Can be used to identify trends before they become obvious to every manager
 
-![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
+![SeasonSummary](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/SeasonSummary.gif)
 
 
 These dashboards can be found at https://www.cb91.io/projects/fpl
