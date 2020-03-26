@@ -4,19 +4,21 @@
 Table of contents
 =================
 
-   * [gh-md-toc](#gh-md-toc)
-   * [Table of contents](#table-of-contents)
-   * [Installation](#installation)
-   * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
+   * [The Motivation](#the-motivation)
+       * [An Introduction to FPL](#an-introduction-to-fpl)
+       * [Differential Players](#differential-players)
+   * [The Technologies Used](#the-technologies-used)
+   * [Data Gathering](#data-gathering)
+       * [Data Sources](#the-data-sources)
+       * [Munging the Data](#munging-the-data)
+   * [Observations](#observations)
+       * [Where Do FPL Points Come From?](#where-do-fpl-points-come-from)
+       * [Network Analysis](#network-analysis)
+   * [Goal Scoring](#thinking-about-goal-scoring)
+       * [Shot Quality](#shot-quality)
+       * [Expected Goals](#expected-goals)
+   * [Modelling](#modelling)
+   * [Dashboard Building](#dashboard-building)
 
 
 ## The Motivation
@@ -150,7 +152,9 @@ We can then use this to see who the most 'important' players in the league are..
 
 A more detailed exploration of this analysis can be found here: https://towardsdatascience.com/who-is-the-premier-leagues-most-important-player-4f184f7b39e4
 
-## Shot Quality
+## Thinking About Goal Scoring
+
+### Shot Quality
 
 If our project's aim is to somehow predict who is going to score goals, then it's worth looking at *how* goals are scored. Of course, each goal requires a shot to be taken, and for that shot to be on target, but the position on the pitch seems to have a material impact on the goal conversion rate.
 
@@ -168,7 +172,7 @@ We can see that shots are not created equally. Generally, proximity to the goal 
 
 As we would expect, penalties are frequently converted into goals, although these are pretty hard to account for in a model, since they are relatively rare events.
 
-## Expected Goals
+### Expected Goals
 
 This analysis, differentiating shots by type and position, has another application.
 
