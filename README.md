@@ -9,9 +9,11 @@ Fantasy Premier League (FPL) is an online game that follows the real-life Premie
 
 Famous players who scored highly in previous seasons are more expensive. Therefore, good FPL managers are those able to spot cheap, unknown players with the potential to score big.
 
-![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png){:height="50%" width="50%"}
+![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/FPLTeam2.png)
 
 Managers can swap one player from their team every week to bring in a replacement (who may be in better form, or have an easier run of fixtures).
+
+A full list of the rules can be found on the FPL website: https://fantasy.premierleague.com/help/rules
 
 ### 'Differential Players'
 
@@ -130,14 +132,55 @@ We can then use this to see who the most 'important' players in the league are..
 
 A more detailed exploration of this analysis can be found here: https://towardsdatascience.com/who-is-the-premier-leagues-most-important-player-4f184f7b39e4
 
-### Expected Goals
+## Shot Quality
 
-Working 
+If our project's aim is to somehow predict who is going to score goals, then it's worth looking at *how* goals are scored. Of course, each goal requires a shot to be taken, and for that shot to be on target, but the position on the pitch seems to have a material impact on the goal conversion rate.
 
-![Talismen](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Talismen.png)
+(Note - we can infer the shot position from the text commentary).
 
-![Talismen](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Talismen.png)
+**Share of shots on target, by position by shot position**
+
+![ShotsOnTarget](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/ShotAccuracy.png)
+
+**Share of shots converted to goals by shot position**
+![GoalConversion](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/GoalConversion.png)
+
+We can see that shots are not created equally. Generally, proximity to the goal is a good indicator as to whether a shot is going to be on target. However, we can see that goal conversion rates are wildly different - nearly 4 in 10 shots are goals if taken from very close proximity, compared to less than 3 in 100 if taken from a difficult angle.
+
+As we would expect, penalties are frequently converted into goals, although these are pretty hard to account for in a model, since they are relatively rare events.
+
+## Expected Goals
+
+This analysis, differentiating shots by type and position, has another application.
+
+Though the aim of this work is to predict goals, there are goals scored in the Premier League that just could not have been foreseen.
+
+In gameweek 27, a central defender for Norwich, the bottom-placed team at that point, decided to have a punt from a very difficult angle against one of the league's best defences. It was a peach of a goal - but there's just no way any predictive model could have seen it coming. He could probably take a shot from the same position another ten times and not even come close to scoring.
+
+![LewisGoal](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Lewis.gif)
+
+This illustrates the randomness that football contains as a sport, and why predicting goals is so tough. As well as cocky central defenders, goals can be caused by unlucky deflections, goalkeeping howlers, and freak movements of the ball. Similarly, nailed-on goals can be denied by unexpected goalie heroics, as well as the woodwork.
+
+An alternative to trying to predict actual goals, therefore, is to work out how many goals we'd have expected a player to score, given the location and quality of the shots that they took.
+
+Having defined the different types of possible shots (where on the pitch they were, whether they were struck with the foot or headers, whether they were directly assisted or not, etc.) we can see the goal conversion rate of each (expected goals, or XG). We can also look at the uplift in goal conversion if the shot is on target.
+
+![ExpectedGoalTable](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/ShotTypes.png)
+
+We can then look at the different shots that a player takes in a game, sum the 'XG' of each shot that they took, and create an overall 'Expected Goals' measure for that player in that game. Note - we can also do the same with assists (i.e. how many assists would we have expected the player to get based on the quality of the subsequent shots) and overall expected goal involvement (XGI, expected goals plus expected assists).
+
+As it happens, XGI correlates pretty well with actual goal involvement.
+
+![XGIViolins](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGIViolins.png)
+
+XG and XGI also seem to increase in a linear fashion - i.e. the mean XG of players who scored twice in a match have roughly double the XG of players who only scored once.
+
+![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
 
 ## Modelling
 
 ## Dashboard Building
+
+Having been unable to build strong predictive models, 
+
+These dashboards can be found at https://www.cb91.io/projects/fpl
