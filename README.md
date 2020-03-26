@@ -1,8 +1,7 @@
 # Moneyballing Fantasy Premier League
 
 
-Table of contents
-=================
+## Table of contents
 
    * [The Motivation](#the-motivation)
        * [An Introduction to FPL](#an-introduction-to-fpl)
@@ -11,6 +10,7 @@ Table of contents
    * [Data Gathering](#data-gathering)
        * [Data Sources](#the-data-sources)
        * [Munging the Data](#munging-the-data)
+       * [Refreshing Data](#refreshing-data)
    * [Observations](#observations)
        * [Where Do FPL Points Come From?](#where-do-fpl-points-come-from)
        * [Network Analysis](#network-analysis)
@@ -18,6 +18,8 @@ Table of contents
        * [Shot Quality](#shot-quality)
        * [Expected Goals](#expected-goals)
    * [Modelling](#modelling)
+       * [Building the Dataset](#building-the-dataset)
+       * [Training Predictive Models](#training-predictive-models)
    * [Dashboard Building](#dashboard-building)
 
 
@@ -54,6 +56,7 @@ Of course, every football match generates a lot of data – both in terms of pla
 * Tableau for Dashboard generation
 * Scikit-learn for Decision Trees / Random Forests
 * XGboost for ensemble method learning
+* GridsearchCV for hyperparameter tuning
 * Keras for deep learning
 
 
@@ -90,6 +93,12 @@ Building back up, we were able to instantiate a 'Match' object from a dictionary
 ![FPLTeam](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/MatchTable.png)
 
 A full exploration of this process can be found here: https://towardsdatascience.com/improve-your-data-wrangling-with-object-oriented-programming-914d3ebc83a9
+
+### Refreshing Data
+
+It's worth noting that the SQL tables can be refreshed with new data when more matches are played by running the appropriate functions in the data gathering notebook.
+
+These new data can then be used in the other notebooks as required (e.g to generate data for the Tableau dashboards - more on these later).
 
 
 ## Observations
@@ -200,7 +209,53 @@ XG and XGI also seem to increase in a linear fashion - i.e. the mean XG of playe
 
 ![XGPlots](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/XGPlots.png)
 
+### Home and Away
+It's also worth noting the effect that playing at a team's home stadium, vs. other teams' stadiums can have on a team's ability to score (and indeed their ability to stop their opponents from scoring.
+
+![HomeAwayGoals](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/HomeAwayGoals.png)
+
+![HomeAwayGoalsCon](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/HomeAwayGoalsCon.png)
+
+We should bear this in mind when we think about trying to guess how likely a player is to score in an upcoming game.
+
 ## Modelling
+
+It's worth saying at the top of this section - I was not able to create high-quality predictive models using this dataset. As I'll discuss, the models were very bad at generalising, despite scoring well on the training dataset. Clearly, the random quirks of individual games caused the models to overfit, despite the attempts to mitigate randomness through the XG and XGI target variables.
+
+I believe that it's possible to get better results than what I achieved with the data that was collected, though I expect that this would require further feature engineering, dimension reduction, (and no small amount of trial and error). Unfortunately, this has not been possible given time constraints for the project.
+
+### Building The Dataset
+
+The dataset created for the model training consisted of rows representing one player's performance in one game. In particular, it included features:
+
+* The following stats for the last match, the average for the last 4 total matches, and the last 4 home/away matches as appropriate:
+    * Shots and goals taken by type per minute
+    * Shots and goals created by type per minute
+    * The total minutes played
+    * The relative strength of the opposition (given on a scale from -3 to +3)
+* The following stats for the upcoming opposition for their last 4 total matches, and their last 4 home/away matches as appropriate:
+    * Shots and goals conceded by type
+    * Relative strength of their previous opponents
+    * Other match stats such as clearances, ball touches, tackles made, etc.
+
+### Training Predictive Models
+
+The general approach to model training was the same for each type of algorithm:
+
+* Create a train test split
+* Train a vanilla model for benchmarking purposes
+* Perform a cross validation grid search to tune hyperparameters USING THE TRAINING SET ONLY
+* Test the tuned model on the test set
+
+As mentioned, none of the models produced especially strong results when exposed to the test dataset.
+
+![ModelResults](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/ModelResults.png)
+
+This is shown when we visualise the model's predictions - this is taken from the Random Forest's attempt to predict the XG target:
+
+![Predictions](https://github.com/calbal91/project-moneyballing-fpl/blob/master/Images/Predictions.png)
+
+We can see that the training set doesn't do too badly (the cross validation process during the gridsearch prevents it from overfitting too badly), but it really has no idea what to do with the test set. The model generally seems to suffer from bias - it is very very hesitant to predict any XGs above 1.
 
 ## Dashboard Building
 
