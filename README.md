@@ -4,7 +4,11 @@
 
 The aim of this project was to create tools to help managers playing 'Fantasy Premier League', an online game that tracks the real-world Premier League football season in England.
 
-By collecting extensive amounts of data pertaining to both the matches themselves as well as FPL manager decisions, I was able to create a series of interactive dashboards, which would provide significant guidance for FPL players. However, the project's aim of creating a model to explicitly predict players that would score in future matches did not work out - despite the use of different algorithms, models failed to generalise effectively to testing data.
+By collecting extensive amounts of data pertaining to both the matches themselves as well as FPL manager decisions (e.g. line-level detail for over 10,000 shots taken across over 400 games), I was able to create a series of interactive dashboards, which would provide significant guidance for FPL players.
+
+However, the project's aim of creating models to explicitly predict player performance in future matches was not successful. Despite trying many different algorithms with cross-validated hyperparameter optimisation, trained models failed to generalise effectively to testing data.
+
+This highlights the intrinsic 'randomness' of football - a sport that has long been difficult to model successfully.
 
 
 ## Table of contents
